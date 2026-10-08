@@ -2,78 +2,91 @@
 
 ### Aprenda. Treine. Evolua.
 
-O **Muay Learn** é uma plataforma digital educacional desenvolvida para auxiliar iniciantes no aprendizado dos fundamentos do Muay Thai de maneira simples, organizada, progressiva e interativa.
+## 📌 Descrição do Projeto
 
----
+O **Muay Learn** é uma plataforma digital educacional voltada para o ensino dos fundamentos do Muay Thai.
 
-## 📌 Sobre o projeto
+O sistema foi desenvolvido com o objetivo de organizar o aprendizado de forma simples, progressiva e interativa, permitindo que o usuário tenha acesso a aulas, técnicas, quizzes e acompanhamento de seu progresso.
 
-O projeto foi desenvolvido como parte da disciplina de **Engenharia de Software**, no primeiro semestre do curso de **Análise e Desenvolvimento de Sistemas (ADS)**.
+A plataforma é direcionada principalmente para pessoas que estão começando a praticar Muay Thai e desejam compreender os fundamentos da modalidade de maneira organizada.
 
-A proposta é aplicar conceitos de Engenharia de Software no planejamento, especificação e modelagem de uma plataforma educacional voltada ao aprendizado do Muay Thai.
+> **Importante:** o Muay Learn possui finalidade educacional e não substitui o acompanhamento presencial de um professor ou treinador qualificado.
 
 ---
 
 ## 🎯 Problema
 
-Pessoas que estão começando a aprender Muay Thai podem encontrar dificuldades para localizar conteúdos organizados e compreender qual sequência de fundamentos deve ser estudada.
+Pessoas que começam a praticar Muay Thai podem encontrar dificuldades para saber:
 
-Grande parte dos conteúdos disponíveis na internet encontra-se distribuída entre diferentes plataformas, dificultando o acompanhamento da evolução do iniciante.
+- por onde começar;
+- quais técnicas aprender primeiro;
+- como organizar seus estudos;
+- quais fundamentos são necessários antes de avançar;
+- como acompanhar sua evolução.
 
-O Muay Learn busca solucionar esse problema através da organização do conteúdo em uma plataforma única e estruturada.
-
----
-
-## 💡 Solução proposta
-
-O Muay Learn organiza o aprendizado do Muay Thai em aulas divididas por níveis de dificuldade.
-
-O aluno poderá estudar os conteúdos, realizar quizzes, acompanhar seu progresso e ganhar pontos de experiência conforme conclui as atividades.
-
-A plataforma também contará com um perfil administrativo responsável pelo gerenciamento dos conteúdos.
+Além disso, conteúdos encontrados na internet geralmente estão espalhados em diferentes plataformas e nem sempre apresentam uma sequência de aprendizado organizada.
 
 ---
 
-## 👥 Público-alvo
+## 💡 Solução Proposta
 
-- Pessoas iniciantes no Muay Thai;
-- Pessoas interessadas em conhecer a modalidade;
-- Praticantes que desejam revisar fundamentos;
-- Usuários que procuram uma forma organizada de estudar.
+O Muay Learn propõe uma plataforma que organiza o aprendizado do Muay Thai em níveis:
 
----
+- **Iniciante**
+- **Intermediário**
+- **Avançado**
 
-## ⚙️ Principais funcionalidades
+Cada nível possui aulas e atividades específicas.
 
-### Aluno
-
-- Cadastro;
-- Login;
-- Visualização de aulas;
-- Conteúdos organizados por nível;
-- Quizzes;
-- Resultado das atividades;
-- Sistema de XP;
-- Acompanhamento de progresso;
-- Conquistas.
-
-### Administrador
-
-- Cadastro de aulas;
-- Edição de aulas;
-- Exclusão de aulas;
-- Cadastro de perguntas;
-- Edição de perguntas;
-- Exclusão de perguntas;
-- Gerenciamento de usuários.
+O aluno poderá estudar os conteúdos, realizar quizzes, receber XP, desbloquear conquistas e acompanhar seu progresso.
 
 ---
 
-## 📚 Organização do aprendizado
+## 👥 Público-Alvo
 
-O conteúdo poderá ser dividido em:
+O sistema é destinado principalmente a:
 
-### 🥉 Iniciante
+- iniciantes no Muay Thai;
+- pessoas interessadas em conhecer a modalidade;
+- praticantes que desejam revisar fundamentos;
+- alunos que procuram uma forma organizada de estudar;
+- pessoas interessadas em acompanhar sua evolução.
+
+---
+
+# 🌐 Domínio na Internet
+
+### Domínio pretendido
+
+**muaylearn.com.br**
+
+> O domínio será utilizado como identificação proposta para a plataforma. A disponibilidade e eventual registro do domínio deverão ser verificados posteriormente.
+
+---
+
+# 🛠️ Stack de Tecnologia
+
+| Tecnologia | Utilização |
+|---|---|
+| HTML5 | Estrutura das páginas |
+| CSS3 | Estilização e responsividade |
+| JavaScript | Interatividade do sistema |
+| Node.js | Ambiente do back-end |
+| Express.js | Desenvolvimento da API |
+| MySQL | Banco de dados |
+| Git | Controle de versão |
+| GitHub | Hospedagem do código e documentação |
+| PlantUML | Diagramas UML |
+| Figma | Protótipos das telas |
+| Markdown | Documentação |
+
+---
+
+# 📚 Níveis de Aprendizado
+
+## 🥉 Iniciante
+
+Conteúdos básicos:
 
 - Base e postura;
 - Guarda;
@@ -81,69 +94,213 @@ O conteúdo poderá ser dividido em:
 - Direto;
 - Cruzado;
 - Teep;
-- Chute;
+- Chutes;
 - Joelhadas;
 - Cotoveladas.
 
-### 🥈 Intermediário
+## 🥈 Intermediário
+
+Conteúdos:
 
 - Combinações;
 - Bloqueios;
 - Esquivas;
 - Movimentação;
-- Contra-ataques.
+- Contra-ataques;
+- Combinações de golpes.
 
-### 🥇 Avançado
+## 🥇 Avançado
+
+Conteúdos:
 
 - Estratégia;
-- Distância;
+- Controle de distância;
 - Timing;
 - Combinações avançadas;
-- Leitura do adversário.
+- Leitura do adversário;
+- Estratégias de combate.
 
 ---
 
-## 📐 Engenharia de Software
-
-O projeto possui documentação relacionada à análise e modelagem do sistema.
-
-### Documentação
-
-- [Requisitos funcionais](docs/requisitos/requisitos-funcionais.md)
-- [Requisitos não funcionais](docs/requisitos/requisitos-nao-funcionais.md)
-- [Regras de negócio](docs/requisitos/regras-de-negocio.md)
-- [Casos de uso](docs/casos-de-uso/casos-de-uso.md)
-- [Diagramas UML](docs/diagramas/)
-
----
-
-## 🧩 Atores
+# ⚙️ Principais Funcionalidades
 
 ### Aluno
 
-Usuário responsável por consumir os conteúdos, realizar atividades e acompanhar seu progresso.
+- Cadastro;
+- Login;
+- Visualização das aulas;
+- Acesso aos conteúdos por nível;
+- Realização de aulas;
+- Realização de quizzes;
+- Visualização dos resultados;
+- Registro de progresso;
+- Sistema de XP;
+- Sistema de conquistas;
+- Visualização do perfil.
 
 ### Administrador
 
-Usuário responsável pelo gerenciamento dos conteúdos e usuários da plataforma.
+- Login;
+- Cadastro de aulas;
+- Edição de aulas;
+- Exclusão de aulas;
+- Cadastro de perguntas;
+- Edição de perguntas;
+- Exclusão de perguntas;
+- Gerenciamento de usuários;
+- Gerenciamento dos conteúdos.
 
 ---
 
-## 🚀 Objetivo
+# 🖥️ Telas do Sistema
 
-O objetivo do projeto é aplicar conceitos de Engenharia de Software na análise, especificação e modelagem de uma solução digital voltada à educação e ao aprendizado de fundamentos do Muay Thai.
+O sistema será composto pelas seguintes telas:
+
+### Área pública
+
+1. Tela inicial
+2. Tela de apresentação
+3. Tela de cadastro
+4. Tela de login
+
+### Área do aluno
+
+5. Dashboard do aluno
+6. Lista de aulas
+7. Aulas para iniciantes
+8. Aulas intermediárias
+9. Aulas avançadas
+10. Tela de aula
+11. Tela de conteúdo da técnica
+12. Tela de quiz
+13. Tela de resultado
+14. Tela de progresso
+15. Tela de conquistas
+16. Tela de perfil
+
+### Área administrativa
+
+17. Dashboard administrativo
+18. Gerenciamento de usuários
+19. Cadastro de aula
+20. Edição de aula
+21. Gerenciamento de aulas
+22. Gerenciamento de quizzes
+23. Cadastro de pergunta
+24. Edição de pergunta
+25. Gerenciamento de perguntas
+26. Gerenciamento de conquistas
 
 ---
 
-## ⚠️ Observação
+# 📊 Sistema de Progressão
 
-O Muay Learn possui finalidade educacional e não substitui o acompanhamento de um professor ou treinador qualificado durante a prática da modalidade.
+O aluno poderá evoluir dentro da plataforma através da realização das atividades.
+
+O sistema poderá registrar:
+
+- aulas concluídas;
+- quizzes realizados;
+- pontuação;
+- XP acumulado;
+- nível do aluno;
+- conquistas desbloqueadas.
 
 ---
 
-## 👨‍💻 Projeto acadêmico
+# 🏆 Sistema de Conquistas
 
-**Curso:** Análise e Desenvolvimento de Sistemas
-**Disciplina:** Engenharia de Software
-**Semestre:** 1º semestre
-**Projeto:** Muay Learn
+O sistema poderá possuir conquistas como:
+
+- 🥊 Primeiro Golpe — completar a primeira aula;
+- 📚 Primeiro Treino — completar 5 aulas;
+- 🔥 Em Evolução — alcançar determinado número de XP;
+- 🏆 Guerreiro — concluir um nível completo;
+- 👊 Mestre dos Fundamentos — concluir todas as aulas básicas.
+
+---
+
+# 👤 Atores do Sistema
+
+## Aluno
+
+O aluno é o usuário que utiliza a plataforma para aprender Muay Thai.
+
+Pode:
+
+- cadastrar-se;
+- realizar login;
+- visualizar aulas;
+- realizar atividades;
+- responder quizzes;
+- acompanhar progresso;
+- ganhar XP;
+- desbloquear conquistas.
+
+## Administrador
+
+Responsável pelo gerenciamento da plataforma.
+
+Pode:
+
+- cadastrar aulas;
+- editar aulas;
+- excluir aulas;
+- gerenciar perguntas;
+- gerenciar quizzes;
+- gerenciar usuários;
+- gerenciar conteúdos.
+
+---
+
+# 🎯 Objetivo Geral
+
+Desenvolver a especificação e modelagem de uma plataforma digital educacional capaz de auxiliar iniciantes no aprendizado dos fundamentos do Muay Thai de forma organizada, progressiva e interativa.
+
+---
+
+# 📌 Objetivos Específicos
+
+- Criar cadastro de usuários;
+- Implementar autenticação;
+- Organizar aulas por nível;
+- Disponibilizar conteúdos educacionais;
+- Criar quizzes;
+- Registrar resultados;
+- Registrar progresso;
+- Implementar sistema de XP;
+- Implementar conquistas;
+- Permitir gerenciamento dos conteúdos pelo administrador;
+- Criar uma interface simples e responsiva.
+
+---
+
+# 📂 Documentação
+
+## Requisitos
+
+- [Requisitos Funcionais](docs/requisitos/requisitos-funcionais.md)
+- [Requisitos Não Funcionais](docs/requisitos/requisitos-nao-funcionais.md)
+- [Regras de Negócio](docs/requisitos/regras-de-negocio.md)
+
+## Casos de Uso
+
+- [Casos de Uso](docs/casos-de-uso/casos-de-uso.md)
+- [Diagrama de Casos de Uso](docs/casos-de-uso/diagrama-casos-de-uso.puml)
+
+## Diagramas UML
+
+- [Diagramas](docs/diagramas/diagramas.md)
+- [Diagrama de Atividade](docs/diagramas/diagrama-atividade.puml)
+- [Diagrama de Sequência](docs/diagramas/diagrama-sequencia.puml)
+- [Diagrama de Classes](docs/diagramas/diagrama-classes.puml)
+
+---
+
+# 🎓 Projeto Acadêmico
+
+Projeto desenvolvido para fins acadêmicos no curso de **Análise e Desenvolvimento de Sistemas (ADS)**.
+
+## 🥊 Muay Learn
+
+**Aprenda. Treine. Evolua.**
