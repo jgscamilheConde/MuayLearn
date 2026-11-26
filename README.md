@@ -154,6 +154,7 @@ Conteúdos:
 
 # 🖥️ Telas do Sistema
 
+Figma: (https://www.figma.com/make/QjHGyUD5Gnsj0b595DfRzG/Plataforma-de-Aprendizado-Muay-Thai?t=l1FOBLDnNDg8GZ7n-1&preview-route=%2Fsobre)
 O sistema será composto pelas seguintes telas:
 
 ### Área pública
